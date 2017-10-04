@@ -48,8 +48,8 @@ namespace WSVeiculos_MVC.Controllers
             return View();
         }
 
-
-        public ActionResult GridResultado( string Nome, string Sobrenome, int Telefone, string Marca, string Mensagem)
+        [HttpPost]
+        public ActionResult GridResultado( string Nome, string Sobrenome, int Telefone, string Marca, string Mensagem, string CheckboxAnuncio)
         {
 
             

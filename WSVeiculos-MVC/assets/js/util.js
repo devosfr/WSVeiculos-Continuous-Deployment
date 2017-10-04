@@ -43,11 +43,6 @@ $(document).ready(function ($) {
             error: function (error) {
                 console.log(error);
             }
-        }).done(function (data) {
-
-            alert(data);
-
-
         });
 
     });
@@ -64,31 +59,33 @@ $(document).ready(function ($) {
 
         $('#btnSubmit').val("Enviando...")
 
-        // var nome = $('#nome').val();
-        // var sobrenome = $('#sobrenome').val();
-        // var tel = $('#tel').val();
-        // var msn = $('#msn').val();
-        var checkboxAnuncios = $('input[type=radio]').val();
+        //var nome = $('#nome').val();
+        //var sobrenome = $('#sobrenome').val();
+        //var tel = $('#tel').val();
+        //var marca = $('#marca').val();
+        //var msn = $('#msn').val();
+        //var checkboxAnuncios = $('input[type=radio]').val();
 
         $.ajax({
-            url: 'valida-formulário.php',
+            url: window.location.origin + "/Home/GridResultado/",
             type: 'post',
             dataType: 'html',
-            // cotentType: 'application/*; charset=utf-8',
-            // cache:false,
+            //cotentType: 'application/*; charset=utf-8',
+            //cache: false,
             data: {
                 'metodo': $('#metodo').val(),
                 'nome': $('#nome').val(),
                 'sobrenome': $('#sobrenome').val(),
                 'tel': $('#tel').val(),
                 'msn': $('#msn').val()
-            }//,
-            // success:function(html){
-            // 	$('.contentContact').html(html);
-            // },
-            // error:function(error){
-            //       console.log(error);
-            // }
+            },
+            data: $(this).serialize(),
+            success: function (html) {
+                $('.contentContact').html(html);
+            },
+            error: function (error) {
+                console.log(error);
+            }
         }).done(function (data) {
             alert(data);
 
