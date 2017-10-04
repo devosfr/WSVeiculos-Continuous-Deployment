@@ -1,0 +1,5 @@
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DTO\bin\Debug\WSVeiculos.DTO.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DTO\bin\Debug\WSVeiculos.DTO.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DTO\obj\Debug\WSVeiculos.DTO.csprojResolveAssemblyReference.cache
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DTO\obj\Debug\WSVeiculos.DTO.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DTO\obj\Debug\WSVeiculos.DTO.pdb

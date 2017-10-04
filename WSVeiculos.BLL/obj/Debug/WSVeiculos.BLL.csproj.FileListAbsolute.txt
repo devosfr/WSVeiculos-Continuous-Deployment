@@ -1,0 +1,9 @@
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.BLL.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.BLL.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\obj\Debug\WSVeiculos.BLL.csprojResolveAssemblyReference.cache
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\obj\Debug\WSVeiculos.BLL.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\obj\Debug\WSVeiculos.BLL.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DAL.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DTO.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DAL.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DTO.pdb
