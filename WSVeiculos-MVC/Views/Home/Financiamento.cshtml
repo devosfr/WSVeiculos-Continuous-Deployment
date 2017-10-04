@@ -4,51 +4,46 @@
     Layout = "~/Views/Shared/template.cshtml";
 }
 
+<!-- Nav -->
+<nav id="nav">
 
-    <div id="page-wrapper" ng-controller="finControl">
-
- 
-        <!-- Header -->
-        <div id="header-wrapper" class="wrapper">
-            <div id="header">
-
-                <!-- Logo -->
-                <div id="logo">
-                    <h1><a href="index.html">Escape Velocity</a></h1>
-                    <p>A free responsive site template by HTML5 UP</p>
-                </div>
-
-                <!-- Nav -->
-                <nav id="nav">
+    <ul>
+        <li class="current"><a href="~/Home">Home</a></li>
+        <li>
+            <a href="#">Marcas</a>
+            <ul>
+                <li><a href="#">Pegeot</a></li>
+                <li><a href="#">Focus</a></li>
+                <li><a href="#">Prisma</a></li>
+                <!-- <li>
+                    <a href="#">Sed consequat</a>
                     <ul>
-                        <li class="current"><a href="~/Home">Home</a></li>
-                        <li>
-                            <a href="#">Marcas</a>
-                            <ul>
-                                <li><a href="#">Pegeot</a></li>
-                                <li><a href="#">Focus</a></li>
-                                <li><a href="#">Prisma</a></li>
-                                <!-- <li>
-                        <a href="#">Sed consequat</a>
-                        <ul>
-                            <li><a href="#">Lorem dolor</a></li>
-                            <li><a href="#">Amet consequat</a></li>
-                            <li><a href="#">Magna phasellus</a></li>
-                            <li><a href="#">Etiam nisl</a></li>
-                            <li><a href="#">Sed feugiat</a></li>
-                        </ul>
-                    </li> -->
-                                <li><a href="#">Cobalt</a></li>
-                                <li><a href="#">Outros</a></li>
-                            </ul>
-                        </li>
-                        <li><a href="~/Home/Financiamento">Fianciamento</a></li>
-                        <li><a href="~/Home/Contato">Contato</a></li>
+                        <li><a href="#">Lorem dolor</a></li>
+                        <li><a href="#">Amet consequat</a></li>
+                        <li><a href="#">Magna phasellus</a></li>
+                        <li><a href="#">Etiam nisl</a></li>
+                        <li><a href="#">Sed feugiat</a></li>
                     </ul>
-                </nav>
+                </li> -->
+                <li><a href="#">Cobalt</a></li>
+                <li><a href="#">Outros</a></li>
+            </ul>
+        </li>
+        <li><a href="~/Home/Financiamento">Fianciamento</a></li>
+        <li><a href="~/Home/Contato">Contato</a></li>
+    </ul>
+</nav>
 
-            </div>
-        </div>
+<div id="page-wrapper" class="page" ng-controller="finControl">
+
+    <!-- Header -->
+    <div id="header-wrapper" class="wrapper">
+
+
+
+
+
+
 
         <!-- Main -->
         <div class="wrapper style2">
@@ -249,4 +244,3 @@
 
     </div>
 
-   

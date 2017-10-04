@@ -4,54 +4,47 @@
     Layout = "~/Views/Shared/template.cshtml";
 }
 
-
-<div id="page-wrapper" ng-controller="contactControl">
-
-
-    <!-- 	<!-- Header -->
-    <div id="header-wrapper" class="wrapper" style="height:270px">
-        <div id="header">
+<div id="page-wrapper" class="page" ng-controller="contactControl">
 
 
+    <!-- Nav -->
+    <nav id="nav">
 
-            <!-- Nav -->
-            <nav id="nav">
+        <ul>
+            <li class="current"><a href="~/Home">Home</a></li>
+            <li>
+                <a href="#">Marcas</a>
                 <ul>
-                    <li class="current"><a href="~/Home">Home</a></li>
-                    <li>
-                        <a href="#">Marcas</a>
+                    <li><a href="#">Pegeot</a></li>
+                    <li><a href="#">Focus</a></li>
+                    <li><a href="#">Prisma</a></li>
+                    <!-- <li>
+                        <a href="#">Sed consequat</a>
                         <ul>
-                            <li><a href="#">Pegeot</a></li>
-                            <li><a href="#">Focus</a></li>
-                            <li><a href="#">Prisma</a></li>
-                            <!-- <li>
-                                <a href="#">Sed consequat</a>
-                                <ul>
-                                    <li><a href="#">Lorem dolor</a></li>
-                                    <li><a href="#">Amet consequat</a></li>
-                                    <li><a href="#">Magna phasellus</a></li>
-                                    <li><a href="#">Etiam nisl</a></li>
-                                    <li><a href="#">Sed feugiat</a></li>
-                                </ul>
-                            </li> -->
-                            <li><a href="#">Cobalt</a></li>
-                            <li><a href="#">Outros</a></li>
+                            <li><a href="#">Lorem dolor</a></li>
+                            <li><a href="#">Amet consequat</a></li>
+                            <li><a href="#">Magna phasellus</a></li>
+                            <li><a href="#">Etiam nisl</a></li>
+                            <li><a href="#">Sed feugiat</a></li>
                         </ul>
-                    </li>
-                    <li><a href="~/Home/Financiamento">Fianciamento</a></li>
-                    <li><a href="~/Home/Contato">Contato</a></li>
+                    </li> -->
+                    <li><a href="#">Cobalt</a></li>
+                    <li><a href="#">Outros</a></li>
                 </ul>
-            </nav>
+            </li>
+            <li><a href="~/Home/Financiamento">Fianciamento</a></li>
+            <li><a href="~/Home/Contato">Contato</a></li>
+        </ul>
+    </nav>
 
-
-        </div>
-    </div>
-
+   
     <div class="content contentContact">
 
         <h1>Contato</h1>
 
+
         <form class="form-horizontal" id="form1">
+            
             <input type="hidden" id="metodo" value="formulario-ajax">
             <div class="form-group">
                 <label class="control-label col-sm-2" for="nome">Nome:</label>

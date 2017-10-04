@@ -7,6 +7,9 @@ app.controller('contactControl', function($scope, $rootScope){
     if ($rootScope.idControl == 3) {
         var footer = $('#footer-wrapper');
         footer.css('margin-top', '500px');
+        var page = $('.page');
+        page.css('margin-top', '300px');
     }
+
 
 });
