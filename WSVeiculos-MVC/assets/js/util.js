@@ -1,26 +1,4 @@
 
-//var selectValue = function (value, index) {
-
-//    $.ajax({
-//        url: window.location.origin + "/Home/GridResultado" + value,
-//        type: 'get',
-//        dataType: 'html',
-//        contentType: 'application/*; charset=utf-8',
-//        cache: false,
-//        data: $(this).serialize(),
-//        error: function (error) {
-//            console.log(error);
-//        }
-//    }).done(function (data) {
-
-//        alert(data);
-
-
-//    });
-
-
-//}
-
 
 $(document).ready(function ($) {
 
@@ -59,13 +37,6 @@ $(document).ready(function ($) {
 
         $('#btnSubmit').val("Enviando...")
 
-        //var nome = $('#nome').val();
-        //var sobrenome = $('#sobrenome').val();
-        //var tel = $('#tel').val();
-        //var marca = $('#marca').val();
-        //var msn = $('#msn').val();
-        //var checkboxAnuncios = $('input[type=radio]').val();
-
         $.ajax({
             url: window.location.origin + "/Home/GridResultado/",
             type: 'post',
@@ -100,7 +71,33 @@ $(document).ready(function ($) {
 
     });
 
-    /*Contato*/
+
+    /*Financiamento*/
+
+    $('#financiamento-1').mouseover(function () {
+        $(this).attr("src", "/images/financiamento-1B.png");
+    });
+
+    $('#financiamento-1').mouseout(function () {
+        $(this).attr("src", "/images/financiamento-1.png");
+    });
+
+
+    $('#financiamento-2').mouseover(function () {
+        $(this).attr("src", "/images/financiamento-2B.png");
+    });
+
+    $('#financiamento-2').mouseout(function () {
+        $(this).attr("src", "/images/financiamento-2.png");
+    });
+
+    $('#financiamento-3').mouseover(function () {
+        $(this).attr("src", "/images/financiamento-3B.png");
+    });
+
+    $('#financiamento-3').mouseout(function () {
+        $(this).attr("src", "/images/financiamento-3.png");
+    });
 
     /**
 	 * Generate an indented list of links from a nav. Meant for use with panel().
