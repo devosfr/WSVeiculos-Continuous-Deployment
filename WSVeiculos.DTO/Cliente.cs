@@ -13,5 +13,7 @@ namespace WSVeiculos.DTO
 
         public string Nome { get; set; }
 
+
+
     }
 }

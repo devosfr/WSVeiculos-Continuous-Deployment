@@ -9,12 +9,12 @@ namespace WSVeiculos.DAL
 {
     public class RepositoryBase<TEntity> : Context, IRepositoryBase<TEntity> where TEntity : class
     {
-        //protected Context db = new Context();
+        protected Context db = new Context();
 
         public void Add(TEntity obj)
         {
-            LimparParametros();
-            AdicionarParametros("@Nome", obj);
+            //LimparParametros();
+            //AdicionarParametros("@Nome", obj);
                 
         }
 

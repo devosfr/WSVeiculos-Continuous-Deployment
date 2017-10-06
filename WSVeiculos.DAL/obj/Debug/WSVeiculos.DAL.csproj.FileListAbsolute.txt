@@ -6,3 +6,7 @@ C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeicul
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\WSVeiculos.DAL.dll.config
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\WSVeiculos.DTO.dll
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\WSVeiculos.DTO.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\EntityFramework.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\EntityFramework.xml
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.DAL\bin\Debug\EntityFramework.SqlServer.xml

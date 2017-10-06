@@ -7,3 +7,5 @@ C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeicul
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DTO.dll
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DAL.pdb
 C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\WSVeiculos.DTO.pdb
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\EntityFramework.dll
+C:\Users\oafreitas\Documents\Visual Studio 2015\Projects\MVC\WSVeiculos\WSVeiculos.BLL\bin\Debug\EntityFramework.xml
