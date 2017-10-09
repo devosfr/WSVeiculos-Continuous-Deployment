@@ -18,7 +18,7 @@ namespace WSVeiculos.DAL
 
         public Context(): base("strConnection")
         {
-            Database.SetInitializer<Context>(new ContextInitializer());
+            //Database.SetInitializer<Context>(new ContextInitializer());
         }
 
         public DbSet<Cliente> Cliente { get; set; }
@@ -50,6 +50,7 @@ namespace WSVeiculos.DAL
 
 
             modelBuilder.Configurations.Add(new ClienteMap());
+            modelBuilder.Configurations.Add(new ProdutosMap());
 
 
             base.OnModelCreating(modelBuilder);
@@ -147,25 +148,25 @@ namespace WSVeiculos.DAL
     }
 
    
-    public class ContextInitializer: DropCreateDatabaseIfModelChanges<Context>
-    {
+    //public class ContextInitializer: DropCreateDatabaseIfModelChanges<Context>
+    //{
 
 
-        protected override void Seed(Context context)
-        {
-            context.Cliente.Add( new Cliente { CodCliente = 1, Nome = "Pedro" });
-            context.Cliente.Add(new Cliente { CodCliente = 2, Nome = "Rosângela" });
-            context.SaveChanges();
+    //    protected override void Seed(Context context)
+    //    {
+    //        context.Cliente.Add( new Cliente { CodCliente = 1, Nome = "Pedro" });
+    //        context.Cliente.Add(new Cliente { CodCliente = 2, Nome = "Rosângela" });
+    //        context.SaveChanges();
 
-            context.Produtos.Add(new Produtos {  CodProdutos = 1, Modelo = "HKW", Marca="CHEVROLET", CodClient = 1, Preco = 15.000});
-            context.Produtos.Add(new Produtos { CodProdutos = 2, Modelo = "SSH", Marca = "CHEVROLET", CodClient = 2, Preco = 35.000 });
-            context.SaveChanges();
+    //        context.Produtos.Add(new Produtos {  CodProdutos = 1, Modelo = "HKW", Marca="CHEVROLET", CodClient = 1, Preco = 15.000});
+    //        context.Produtos.Add(new Produtos { CodProdutos = 2, Modelo = "SSH", Marca = "CHEVROLET", CodClient = 2, Preco = 35.000 });
+    //        context.SaveChanges();
 
-            base.Seed(context); 
-        }
+    //        base.Seed(context); 
+    //    }
 
 
-    }
+    //}
 
 
 

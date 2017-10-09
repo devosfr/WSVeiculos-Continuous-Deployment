@@ -4,16 +4,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
+using WSVeiculos.DAL;
 using WSVeiculos.DTO;
 
 namespace WSVeiculos_MVC.Controllers
 {
     public class HomeController : Controller
     {
-        private Produtos produtos = new Produtos();
+        private Produtos dtoProdutos = new Produtos();
 
+        private Cliente dtoCliente = new Cliente();
+
+
+   
         public ActionResult Index()
         {
+            
             return View();
         }
 
@@ -35,8 +41,6 @@ namespace WSVeiculos_MVC.Controllers
             list.Add(3);
             list.Add("thecodebr.blogspot.com");
 
-            var marca = produtos.Marca;
-
             return View(list);
         }
 
@@ -52,15 +56,15 @@ namespace WSVeiculos_MVC.Controllers
         public ActionResult GridResultado( string Nome, string Sobrenome, int Telefone, string Marca, string Mensagem, string CheckboxAnuncio)
         {
 
+
+
+            dtoCliente.Nome = ViewBag.Nome = Nome;
             
 
             return View();
         }
 
-
-
-
-
+    
 
 
 

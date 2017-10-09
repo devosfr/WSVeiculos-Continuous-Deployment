@@ -15,6 +15,8 @@ namespace WSVeiculos.DAL
         {
             //LimparParametros();
             //AdicionarParametros("@Nome", obj);
+            db.Set<TEntity>().Add(obj);
+            db.SaveChanges();
                 
         }
 
@@ -25,27 +27,26 @@ namespace WSVeiculos.DAL
 
         public IEnumerable<TEntity> GetAll()
         {
-            throw new NotImplementedException();
+            return db.Set<TEntity>().ToList();
         }
 
         public TEntity GetById(int id)
         {
-            throw new NotImplementedException();
+            return db.Set<TEntity>().Find(id);
         }
 
         public void Remove(TEntity obj)
         {
-            throw new NotImplementedException();
+            db.Set<TEntity>().Remove(obj);
+            db.SaveChanges();
         }
 
         public void Update(TEntity obj)
         {
-            throw new NotImplementedException();
+            db.Entry(obj).State = System.Data.Entity.EntityState.Modified;
+            db.SaveChanges();
         }
 
-        public string BuscarPorNome(string Nome)
-        {
-            return null;
-        }
+     
     }
 }

@@ -43,29 +43,29 @@
         <h1>Contato</h1>
 
 
-        <form class="form-horizontal" id="form1">
+        <form class="form-horizontal" id="form1" action="/Home/GridResultado/" method="post">
             
             <input type="hidden" id="metodo" value="formulario-ajax">
             <div class="form-group">
                 <label class="control-label col-sm-2" for="nome">Nome:</label>
                 <div class="col-sm-10">
-                    <input type="text"  id="nome" placeholder="Nome">
+                    <input type="text"  id="nome" name="Nome" placeholder="Nome">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="sobrenome">Sobrenome:</label>
                 <div class="col-sm-10">
-                    <input type="text" id="sobrenome" placeholder="Sobrenome">
+                    <input type="text" id="sobrenome" name="Sobrenome" placeholder="Sobrenome">
                 </div>
             </div>
             <div class="form-group">
                 <label class="control-label col-sm-2" for="tel">Telefone:</label>
                 <div class="col-sm-10">
-                    <input type="text"  id="tel" placeholder="Telefone">
+                    <input type="text"  id="tel" placeholder="Telefone" name="Telefone">
                 </div>
                 <div class="col-sm-10">
                     <label class="control-label col-sm-2" for="tel">Marca:</label>
-                    <select id="selectContact" id="marca">
+                    <select id="selectContact" id="marca" name="Marca">
                         <option value=""></option>
                         @foreach (var item in Model)
                         {
@@ -78,17 +78,17 @@
             <div class="form-group">
                 <label class="control-label col-sm-2" for="msn">Mensagem:</label>
                 <div class="col-sm-10">
-                    <textarea name="" id="msn" cols="30" rows="10"></textarea>
+                    <textarea id="msn" cols="30" rows="10" name="Mensagem"></textarea>
                 </div>
             </div>
             <div class="form-group">
                 <div class="col-sm-offset-2 col-sm-10">
                     <h4>Receber Anúncios em meu por e-mail</h4>
                     <div class="checkbox">
-                        <label><input type="radio" value="1" name="checkboxAnuncios" class="checkboxAnuncios" checked="checked">Sim</label>
+                        <label><input type="radio" value="1" name="CheckboxAnuncio" class="checkboxAnuncios" checked="checked">Sim</label>
                     </div>
                     <div class="checkbox">
-                        <label><input type="radio" value="0" name="checkboxAnuncios">Não</label>
+                        <label><input type="radio" value="0" name="CheckboxAnuncio">Não</label>
                     </div>
                 </div>
             </div>

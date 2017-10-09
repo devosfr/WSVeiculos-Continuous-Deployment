@@ -14,9 +14,12 @@ namespace WSVeiculos.DAL.EntitiesConfig
         public ClienteMap()
         {
 
+            ToTable("Cliente");
+
             HasKey(c => c.CodCliente);
 
             Property(c => c.Nome).IsRequired().HasMaxLength(100);
+            
 
         }
 

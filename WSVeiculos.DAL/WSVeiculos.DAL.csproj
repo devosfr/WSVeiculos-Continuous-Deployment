@@ -53,6 +53,7 @@
     <Compile Include="ClienteRepository.cs" />
     <Compile Include="Context.cs" />
     <Compile Include="EntitiesConfig\ClienteMap.cs" />
+    <Compile Include="EntitiesConfig\ProdutosMap.cs" />
     <Compile Include="Interfaces\IClienteRepository.cs" />
     <Compile Include="Interfaces\IProdutosRepository.cs" />
     <Compile Include="Interfaces\IRepositoryBase.cs" />

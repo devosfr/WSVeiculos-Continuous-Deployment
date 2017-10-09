@@ -26,50 +26,50 @@ $(document).ready(function ($) {
     });
 
 
-    $('#form1').submit(function (e) {
+    //$('#form1').submit(function (e) {
 
-        e.preventDefault();
+    //    e.preventDefault();
 
-        if ($('#btnSubmit').val() == "Enviando...") {
-            return false;
-        }
-
-
-        $('#btnSubmit').val("Enviando...")
-
-        $.ajax({
-            url: window.location.origin + "/Home/GridResultado/",
-            type: 'post',
-            dataType: 'html',
-            //cotentType: 'application/*; charset=utf-8',
-            //cache: false,
-            data: {
-                'metodo': $('#metodo').val(),
-                'nome': $('#nome').val(),
-                'sobrenome': $('#sobrenome').val(),
-                'tel': $('#tel').val(),
-                'msn': $('#msn').val()
-            },
-            data: $(this).serialize(),
-            success: function (html) {
-                $('.contentContact').html(html);
-            },
-            error: function (error) {
-                console.log(error);
-            }
-        }).done(function (data) {
-            alert(data);
-
-            $('#btnSubmit').val('ENVIAR FORMULÁRIO');
-
-            $('#nome').val('');
-            $('#sobrenome').val('');
-            $('#tel').val('');
-            $('#msn').val('')
-        });
+    //    if ($('#btnSubmit').val() == "Enviando...") {
+    //        return false;
+    //    }
 
 
-    });
+    //    $('#btnSubmit').val("Enviando...")
+
+    //    $.ajax({
+    //        url: window.location.origin + "/Home/GridResultado/",
+    //        type: 'post',
+    //        dataType: 'html',
+    //        //cotentType: 'application/*; charset=utf-8',
+    //        //cache: false,
+    //        data: {
+    //            'metodo': $('#metodo').val(),
+    //            'nome': $('#nome').val(),
+    //            'sobrenome': $('#sobrenome').val(),
+    //            'tel': $('#tel').val(),
+    //            'msn': $('#msn').val()
+    //        },
+    //        data: $(this).serialize(),
+    //        success: function (html) {
+    //            $('.contentContact').html(html);
+    //        },
+    //        error: function (error) {
+    //            console.log(error);
+    //        }
+    //    }).done(function (data) {
+    //        alert(data);
+
+    //        $('#btnSubmit').val('ENVIAR FORMULÁRIO');
+
+    //        $('#nome').val('');
+    //        $('#sobrenome').val('');
+    //        $('#tel').val('');
+    //        $('#msn').val('')
+    //    });
+
+
+    //});
 
 
     /*Financiamento*/

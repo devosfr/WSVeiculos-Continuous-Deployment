@@ -13,7 +13,7 @@ namespace WSVeiculos.DTO
 
         public string Nome { get; set; }
 
-
+        public IEnumerable<Produtos> Produtos { get; set; }
 
     }
 }

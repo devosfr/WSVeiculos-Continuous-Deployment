@@ -125,6 +125,8 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ViewModels\ClienteViewModel.cs" />
+    <Compile Include="ViewModels\ProdutosViewModel.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="assets\css\font-awesome.min.css" />
@@ -279,12 +281,12 @@
     <Content Include="Views\Home\Contato.cshtml" />
     <Content Include="Views\Home\Financiamento.cshtml" />
     <Content Include="Views\Home\SelectedVal.cshtml" />
+    <Content Include="Views\Home\GridResultado.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Content\template\Scripts\services\" />
     <Folder Include="Content\template\Views\" />
-    <Folder Include="Models\" />
     <Folder Include="Scripts\services\" />
   </ItemGroup>
   <ItemGroup>
@@ -299,6 +301,10 @@
     <ProjectReference Include="..\WSVeiculos.BLL\WSVeiculos.BLL.csproj">
       <Project>{59cab07d-6e41-4a62-8cbf-201a7cff83e2}</Project>
       <Name>WSVeiculos.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\WSVeiculos.DAL\WSVeiculos.DAL.csproj">
+      <Project>{4b2a299a-0af7-4389-8133-06ad19fdf39a}</Project>
+      <Name>WSVeiculos.DAL</Name>
     </ProjectReference>
     <ProjectReference Include="..\WSVeiculos.DTO\WSVeiculos.DTO.csproj">
       <Project>{844e9c10-8813-4934-bc33-52ef13a798f0}</Project>
